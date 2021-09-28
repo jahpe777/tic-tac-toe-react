@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.board {
+  width: 306px;
+  height: 306px;
+  margin: auto;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.square:hover {
+  background: lightblue;
+  cursor: pointer;
+}
